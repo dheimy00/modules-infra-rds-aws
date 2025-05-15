@@ -86,6 +86,7 @@ variable "db_subnet_group_name" {
 variable "security_group_name" {
   description = "Name of the security group to create"
   type        = string
+  default     = null
 }
 
 variable "allowed_security_groups" {
